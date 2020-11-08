@@ -678,6 +678,12 @@
           "lib/netstandard2.0/WebDriver.dll": {}
         }
       },
+      "Selenium.WebDriver.GeckoDriver/0.28.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.GeckoDriver.targets": {}
+        }
+      },
       "SpecFlow/3.4.31": {
         "type": "package",
         "dependencies": {
@@ -2921,6 +2927,24 @@
         "lib/netstandard2.0/WebDriver.xml",
         "selenium.webdriver.3.141.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.GeckoDriver/0.28.0": {
+      "sha512": "vW4OyxJAIQxZSjPxKtOlLClA2gSBvZUvzSdWTXeKJCXbgRyefdCaYRSEkaGqwxz7Ck+vBTXeRxd7v7LS6uoUfQ==",
+      "type": "package",
+      "path": "selenium.webdriver.geckodriver/0.28.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DefinePropertiesGeckoDriver.targets",
+        "build/Selenium.WebDriver.GeckoDriver.targets",
+        "driver/linux64/geckodriver",
+        "driver/mac64/geckodriver",
+        "driver/win32/geckodriver.exe",
+        "driver/win64/geckodriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.geckodriver.0.28.0.nupkg.sha512",
+        "selenium.webdriver.geckodriver.nuspec"
       ]
     },
     "SpecFlow/3.4.31": {
@@ -6668,6 +6692,7 @@
       "Selenium.Chrome.WebDriver >= 85.0.0",
       "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0",
+      "Selenium.WebDriver.GeckoDriver >= 0.28.0",
       "SpecFlow >= 3.4.31",
       "SpecFlow.NUnit >= 3.4.31",
       "SpecFlow.Tools.MsBuild.Generation >= 3.4.31",
@@ -6730,6 +6755,10 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[3.141.0, )"
+          },
+          "Selenium.WebDriver.GeckoDriver": {
+            "target": "Package",
+            "version": "[0.28.0, )"
           },
           "SpecFlow": {
             "target": "Package",

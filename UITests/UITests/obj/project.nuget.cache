@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zew5hJH3gpTtFGlkz5bsBHbC2pNKdXr1ihH2zOw89jmaezbzQ3RM655Pjj/DvOUcshgkspD20JXSroHSAfzysQ==",
+  "dgSpecHash": "Nz6mmFCZ+k0t1EXBqu79ajJMZhoRwzV2SntrQ8h/YaCi7Fk7TXrQDHpraWPzQIvOH6r8agh6K79GUsHfd6He7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ibrah\\source\\repos\\Enhance\\UITests\\UITests\\UITests.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\ibrah\\.nuget\\packages\\selenium.chrome.webdriver\\85.0.0\\selenium.chrome.webdriver.85.0.0.nupkg.sha512",
     "C:\\Users\\ibrah\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
     "C:\\Users\\ibrah\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\ibrah\\.nuget\\packages\\selenium.webdriver.geckodriver\\0.28.0\\selenium.webdriver.geckodriver.0.28.0.nupkg.sha512",
     "C:\\Users\\ibrah\\.nuget\\packages\\specflow\\3.4.31\\specflow.3.4.31.nupkg.sha512",
     "C:\\Users\\ibrah\\.nuget\\packages\\specflow.nunit\\3.4.31\\specflow.nunit.3.4.31.nupkg.sha512",
     "C:\\Users\\ibrah\\.nuget\\packages\\specflow.tools.msbuild.generation\\3.4.31\\specflow.tools.msbuild.generation.3.4.31.nupkg.sha512",
